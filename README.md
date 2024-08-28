@@ -16,3 +16,9 @@ Get in touch:
   </div>
 
 View my [Portfolio](https://egleston.dev)
+
+## Some important Git commands
+
+- Create a new branch 
+
+![Git command to create new branch](/Assets/Screenshot%202024-08-28%20at%2020.25.21.png)
