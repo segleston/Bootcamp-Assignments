@@ -1,12 +1,12 @@
 # CFG-Assignments
 
-### Hi, I'm Sarah
+### **Hi, I'm Sarah**
 
 👋 Welcome to my CFG Degree repository.
 
 🦴 I'm passionate about learning new skills, I was previously an Emergency and Critical Care Veterinary Nurse prior to moving into an operations role within the pet insurance industry. 
 
-🖥️ I'm currently a Software Developer student with Code First Girls 
+🖥️ I'm currently a Software Developer student with Code First Girls. 
 
 Get in touch:
 <div id="badges" align="left" style="padding-bottom: 10px">
@@ -15,3 +15,4 @@ Get in touch:
   </a>
   </div>
 
+View my [Portfolio](https://egleston.dev)
