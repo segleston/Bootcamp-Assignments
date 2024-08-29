@@ -21,22 +21,22 @@ Get in touch:
 ## Some important Git commands
 
 - *Create a new branch*
-  - `git branch -d branch-name`
+`git branch -d branch-name`
 
 ![Git command to create new branch](/Assets/new-branch.png)
 
 - *Checking the status*
-  - `git status`
+`git status`
 
 ![Git command to check status](/Assets/git-status.png)
 
 - *Adding commit with message*
-  - `git add .`   `git commit -m 'commit message'`
+`git add .`   `git commit -m 'commit message'`
 
 ![Git command to commit work with message](/Assets/adding-commit.png)
 
 - *Adding files to a branch* 
-- `git add file-name`
+`git add file-name`
 
 ![Git command to add files](/Assets/add-files.png)
 
