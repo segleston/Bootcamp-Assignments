@@ -18,6 +18,8 @@ Get in touch:
   </a>
   </div>
 
+---
+
 ## Some important Git commands
 
 - *Create a new branch*
@@ -42,15 +44,18 @@ Get in touch:
 
 - *Opening a pull request*
 
-1. ![Opening a pull request steps](/Assets/pr-1.png)
-2. ![Opening a pull request steps](/Assets/pr-2.png)
+![Opening a pull request steps](/Assets/pr-1.png)
+---
+![Opening a pull request steps](/Assets/pr-2.png)
 
 
 - *Merging and deploying to main branch*
 
-1. ![Merge and deploy to main branch in github](/Assets/pr-3.png)
-2. ![Merge and deploy to main branch in github](/Assets/pr-4.png)
-3. ![Merge and deploy to main branch in github](/Assets/pr-5.png)
+![Merge and deploy to main branch in github](/Assets/pr-3.png)
+---
+![Merge and deploy to main branch in github](/Assets/pr-4.png)
+---
+![Merge and deploy to main branch in github](/Assets/pr-5.png)
 
 ## .gitignore
 
