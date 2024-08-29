@@ -42,16 +42,15 @@ Get in touch:
 
 - *Opening a pull request*
 
-![Opening a pull request steps](/Assets/pr-1.png)
-![Opening a pull request steps](/Assets/pr-2.png)
-![Opening a pull request steps](/Assets/pr-3.png)
+1. ![Opening a pull request steps](/Assets/pr-1.png)
+2. ![Opening a pull request steps](/Assets/pr-2.png)
+
 
 - *Merging and deploying to main branch*
 
-![Merge and deploy to main branch in github](/Assets/pr-4.png)
-![Merge and deploy to main branch in github](/Assets/pr-5.png)
-![Merge and deploy to main branch in github](/Assets/pr-6.png)
-
+1. ![Merge and deploy to main branch in github](/Assets/pr-3.png)
+2. ![Merge and deploy to main branch in github](/Assets/pr-4.png)
+3. ![Merge and deploy to main branch in github](/Assets/pr-5.png)
 
 ## .gitignore
 
