@@ -6,9 +6,10 @@
 
 🦴 I'm passionate about learning new skills, I was previously an Emergency and Critical Care Veterinary Nurse prior to moving into an operations role within the pet insurance industry. 
 
-🖥️ I'm currently a Software Developer student with Code First Girls. 
+🖥️ I'm currently a Software Developer student with Code First Girls. View my [Portfolio](https://egleston.dev)
 
-**I will be using Github in this assignment to demonstrate my ability to set up github and show the need for a readme which explains the code you have written and it's uses. I will also be using this readme to demonstrate use of Github commands.**
+I will be using Github in this assignment to demonstrate my ability to set up github and show the need for a readme which explains the code you have written and it's uses. I will also be using this readme to demonstrate use of Github commands.
+
 
 Get in touch:
 <div id="badges" align="left" style="padding-bottom: 10px">
@@ -16,8 +17,6 @@ Get in touch:
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
   </div>
-
-View my [Portfolio](https://egleston.dev)
 
 ## Some important Git commands
 
