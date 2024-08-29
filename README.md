@@ -21,4 +21,30 @@ View my [Portfolio](https://egleston.dev)
 
 - Create a new branch 
 
-![Git command to create new branch](/Assets/Screenshot%202024-08-28%20at%2020.25.21.png)
+![Git command to create new branch](/Assets/new-branch.png)
+
+- Checking the status
+
+![Git command to check status](/Assets/git-status.png)
+
+- Adding commit with message
+
+![Git command to commit work with message](/Assets/adding-commit.png)
+
+- Adding files to a branch 
+
+![Git command to add files](/Assets/add-files.png)
+
+- Opening a pull request
+
+![Opening a pull request steps](/Assets/pr-1.png)
+![Opening a pull request steps](/Assets/pr-2.png)
+![Opening a pull request steps](/Assets/pr-3.png)
+
+- Merging and deploying to main branch
+
+![Merge and deploy to main branch in github](/Assets/pr-4.png)
+![Merge and deploy to main branch in github](/Assets/pr-5.png)
+![Merge and deploy to main branch in github](/Assets/pr-6.png)
+
+
