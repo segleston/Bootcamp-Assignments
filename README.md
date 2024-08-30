@@ -8,15 +8,18 @@
 
 🖥️ I'm currently a Software Developer student with Code First Girls. View my [Portfolio](https://egleston.dev)
 
-I will be using Github in this assignment to demonstrate my ability to set up github and show the need for a readme which explains the code you have written and it's uses. I will also be using this readme to demonstrate use of Github commands.
+In this assignment, I will utilise GitHub to showcase my skills in setting up a repository and emphasise the importance of a README file. The README will explain the purpose and functionality of the code, while also demonstrating the use of essential GitHub commands.
 
 
 Get in touch:
+
 <div id="badges" align="left" style="padding-bottom: 10px">
   <a href="https://www.linkedin.com/in/sarah-egleston/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
-  </div>
+</div>
+
+---
 
 ## Some important Git commands
 
@@ -42,15 +45,18 @@ Get in touch:
 
 - *Opening a pull request*
 
-1. ![Opening a pull request steps](/Assets/pr-1.png)
-2. ![Opening a pull request steps](/Assets/pr-2.png)
+![Opening a pull request steps](/Assets/pr-1.png)
+---
+![Opening a pull request steps](/Assets/pr-2.png)
 
 
 - *Merging and deploying to main branch*
 
-1. ![Merge and deploy to main branch in github](/Assets/pr-3.png)
-2. ![Merge and deploy to main branch in github](/Assets/pr-4.png)
-3. ![Merge and deploy to main branch in github](/Assets/pr-5.png)
+![Merge and deploy to main branch in github](/Assets/pr-3.png)
+---
+![Merge and deploy to main branch in github](/Assets/pr-4.png)
+---
+![Merge and deploy to main branch in github](/Assets/pr-5.png)
 
 ## .gitignore
 
