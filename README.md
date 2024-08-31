@@ -95,7 +95,7 @@ A `requirements.txt` file is used in Python projects to list all the dependencie
 
 ## License
 
-This repository is licensed under the MIT License. You are free to use, modify, and distribute the code as long as the original author is credited.
+This repository is licensed under the MIT License. 
 
 ---
 
