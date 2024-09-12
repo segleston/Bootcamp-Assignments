@@ -1,0 +1,25 @@
+You're a movie genius!!
+You completed the quiz in 50.15 seconds!
+
+Your final score is: 9/10
+
+Question: Brandon Routh plays the titular character in the movie "John Wick".
+Your answer of False was correct.
+Question: The word "Inception" came from the 2010 blockbuster hit "Inception".
+Your answer of False was correct.
+Question: George Lucas directed the entire original Star Wars trilogy.
+Your answer of False was correct.
+Question: Han Solo's co-pilot and best friend, "Chewbacca", is an Ewok.
+Your answer of False was correct.
+Question: Samuel L. Jackson had the words, 'Bad Motherf*cker' in-scripted on his lightsaber during the filming of Star Wars.
+Your answer of True was correct.
+Question: "Minions" was released on the June 10th, 2015.
+Your answer of True was incorrect.
+Question: In the original Star Wars trilogy, David Prowse was the actor who physically portrayed Darth Vader.
+Your answer of True was correct.
+Question: Matt Damon played an astronaut stranded on an extraterrestrial planet in both of the movies Interstellar and The Martian.
+Your answer of True was correct.
+Question: The film "2001: A Space Odyssey" was released on December 31st, 2000.
+Your answer of False was correct.
+Question: In Alfred Hitchcock's film 'Psycho' it is said he used chocolate syrup to simulate the blood in the famous shower scene from 
+Your answer of True was correct.
