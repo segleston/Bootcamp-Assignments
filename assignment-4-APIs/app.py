@@ -3,10 +3,6 @@ from db_utils import add_sweet, get_sweet_by_id, delete_sweet, get_sweet_by_name
 
 app = Flask(__name__)
 
-@app.route('/')
-def hello():
-    return {'hello': 'Universe'}
-
 #Get all sweets
 @app.route('/sweets', methods=['GET'])
 def get_sweets():

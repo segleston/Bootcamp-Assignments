@@ -2,7 +2,7 @@ from db_utils import get_stock_level, update_stock_level, add_order, get_cost
 import requests
 import json
 
-
+#Display menu function
 def display_menu():
     try:
         response = requests.get('http://127.0.0.1:5000/sweets')
@@ -12,6 +12,7 @@ def display_menu():
             print("************************************************************************************")
             print("                                 Sweet Shop Menu                                    ")
             print("************************************************************************************")
+            #Display sweets in db
             for sweet in sweets:
                 print(f" Name: {sweet['name'].title():<35} Price per sweet: £{float(sweet['price']):.2f}")
                 print(f" Description: {sweet['description']:<25}")
@@ -26,6 +27,7 @@ def display_menu():
         print(f"An error occurred while fetching sweets: {e}")
         return None
 
+#Fetch ingredients for a specific sweet function
 def fetch_and_display_ingredients(sweet_name):
     try:
         response = requests.get(f'http://127.0.0.1:5000/sweets/name/{sweet_name}')
@@ -37,6 +39,7 @@ def fetch_and_display_ingredients(sweet_name):
     except requests.exceptions.RequestException as e:
         print(f"An error occurred while fetching ingredients: {e}")
 
+#Place order function
 def place_order(customer_name, sweet_order_name, order_quantity, total_cost):
     order_data = {
         "customer_name": customer_name,
@@ -53,6 +56,7 @@ def place_order(customer_name, sweet_order_name, order_quantity, total_cost):
         print(f"An error occurred while placing the order: {e}")
 
 def run():
+    #Welcome message
     print('##################################################')
     print('#                                                #')
     print('#       🍭  Welcome to the Sweet Shop!  🍭       #')
@@ -69,6 +73,7 @@ def run():
     if see_menu == "y":
         display_menu()
 
+        # Show ingredients using function above
         see_ingredients = input("Would you like to see the ingredients for any sweet? (y/n): ").lower()
         if see_ingredients == 'y':
             sweet_name = input("Which sweet's ingredients would you like to see? Enter the name: ").strip().lower()
@@ -83,21 +88,21 @@ def run():
     if start_order != 'y':
         print('Thank you, come again!')
         return
-
+    # Getting order details
     customer_name = input('Please enter your name: ').strip()
     sweet_order_name = input('What sweet would you like to order? Enter sweet name: ').lower()
 
     try:
         order_quantity = int(input('Enter quantity: '))
+        # Getting stock levels of the specified sweet
         stock_info = get_stock_level(sweet_order_name)
 
         if stock_info is None:
             print("Sorry, that sweet does not exist. Please check the name and try again.")
             return
 
-        # Ensure stock_quantity is converted to float
         stock_quantity = float(stock_info['stock_quantity'])
-
+        #Checking there is enough of that sweet in stock
         if order_quantity > stock_quantity:
             print(f"Sorry, we only have {stock_quantity} of {sweet_order_name.title()} in stock.")
             return
@@ -123,10 +128,10 @@ def run():
         print(f"Payment successful! Your change is £{change:.2f}.")
         print(f"You have successfully ordered {order_quantity} of {sweet_order_name.title()}. Enjoy your sweets!")
 
-        # Make an API call to add the order
+        # Make an API call to add the order to the orders db
         place_order(customer_name, sweet_order_name, order_quantity, cost)
 
-        # Update stock level (convert to float if necessary)
+        # Update stock level
         update_stock_level(sweet_order_name, float(stock_quantity - order_quantity))
 
     except ValueError:

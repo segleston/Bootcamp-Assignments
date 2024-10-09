@@ -44,6 +44,7 @@ def add_sweet(sweet):
         cursor.close()
         conn.close()
 
+# Get all sweets in db
 def get_all_sweets():
     conn = _connect_to_db('sweet_shop')
     try:
@@ -89,19 +90,19 @@ def get_sweet_by_name(name):
         conn.close()
 
 
-#Deleting sweet
-def delete_sweet(sweet_id):
-    conn = _connect_to_db('sweet_shop')
-    try:
-        cursor = conn.cursor()
-        query = "DELETE FROM sweets WHERE sweet_id = %s"
-        cursor.execute(query, (sweet_id,))
-        conn.commit()
-    except Exception as e:
-        raise DbConnectionError(f"Failed to delete sweet with ID {sweet_id}: {e}")
-    finally:
-        cursor.close()
-        conn.close()
+# Deleting sweet
+# def delete_sweet(sweet_id):
+#     conn = _connect_to_db('sweet_shop')
+#     try:
+#         cursor = conn.cursor()
+#         query = "DELETE FROM sweets WHERE sweet_id = %s"
+#         cursor.execute(query, (sweet_id,))
+#         conn.commit()
+#     except Exception as e:
+#         raise DbConnectionError(f"Failed to delete sweet with ID {sweet_id}: {e}")
+#     finally:
+#         cursor.close()
+#         conn.close()
 
 #Getting stock level of a sweet by its name
 def get_stock_level(name):
