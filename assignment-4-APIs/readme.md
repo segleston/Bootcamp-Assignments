@@ -73,7 +73,7 @@ http://127.0.0.1:5000/sweets
 
 http://127.0.0.1:5000/<id>
 
-![id_url.png](/images/id_url.png)
+![id_url.png](./images/id_url.png)
 
 - Or by its name at:
 
