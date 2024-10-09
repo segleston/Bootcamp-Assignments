@@ -57,7 +57,7 @@ PASSWORD = 'your_password'
 
 1. Start the Backend/API: Run the ```app.py``` file to start the application.
 
-![app.png](//images/app.png)
+![app.png](images/app.png)
 
 The application will be accessible at: http://127.0.0.1:5000
 
@@ -67,39 +67,39 @@ The application will be accessible at: http://127.0.0.1:5000
 
 http://127.0.0.1:5000/sweets
 
-![get_sweets.png](/images/get_sweets.png)
+![get_sweets.png](images/get_sweets.png)
 
 - You can view a specific sweet by its ID at:
 
 http://127.0.0.1:5000/<id>
 
-![id_url.png](./images/id_url.png)
+![id_url.png](images/id_url.png)
 
 - Or by its name at:
 
 http://127.0.0.1:5000/sweets/name/<name>
 
-![name.png](/images/name.png)
+![name.png](images/name.png)
 
 3. Run the Client-side Application: Execute the ```main.py``` file to interact with the API.
 
-![main.png](/images/main.png)
+![main.png](images/main.png)
 
 - You will see a welcome message prompting for input:
 
-![main1.png](/images/main1.png)
+![main1.png](images/main1.png)
 
 - If you enter 'y', the sweet shop menu will be displayed:
 
-![main2.png](/images/main2.png)
+![main2.png](images/main2.png)
 
 - The app will ask if you wish to see any sweet ingredients:
 
-![ingredients.png](/images/ingredients.png)
+![ingredients.png](images/ingredients.png)
 
 - You can place an order for sweets from this menu, entering the sweet name and quantity. The app will then calculate the total and ask for your payment amount, providing change as needed:
 
-![order.png](/images/order.png)
+![order.png](images/order.png)
 
 ### API Endpoints
 
