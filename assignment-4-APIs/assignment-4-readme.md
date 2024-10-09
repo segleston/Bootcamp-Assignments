@@ -57,7 +57,7 @@ PASSWORD = 'your_password'
 
 1. Start the Backend/API: Run the ```app.py``` file to start the application.
 
-![app.png](images/app.png)
+![app.png](./images/app.png)
 
 The application will be accessible at: http://127.0.0.1:5000
 
