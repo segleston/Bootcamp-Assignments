@@ -1,0 +1,10 @@
+# Ignore all files in the repository
+*
+
+# Allow certain files or folders to be tracked
+!.gitignore
+!README.md
+!some-other-file.md
+
+# Specifically ignore config.py in the subdirectory
+assignment-4-APIs/config.py
