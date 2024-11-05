@@ -1,4 +1,4 @@
-# CFG-Assignments
+# Assignments
 
 ### **Hi, I'm Sarah**
 
