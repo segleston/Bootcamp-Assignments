@@ -4,7 +4,7 @@
 
 👋 Welcome to my Software Development Bootcamp repository.
 
-This repo holds four assignments, showcasing my skills in Python and SQL. 
+This repo holds four assignments from my 16 week bootcamp from August to December 2024, and showcases my skills in Python and SQL. 
 
 
 ---
